@@ -11,7 +11,8 @@
     "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test",
-    "sync:contracts": "scripts/sync-contract-artifacts.sh"
+    "sync:contracts": "scripts/sync-contract-artifacts.sh",
+    "mock:server": "tsx mock-server/server.ts"
   },
   "dependencies": {
     "@simplewebauthn/browser": "^14.0.0",
